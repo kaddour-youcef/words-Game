@@ -6,7 +6,7 @@
 #include <vector>
  using namespace std;
  
- //function pour menalger le mot
+ //function pour mélanger le mot
  string melanger(string mot)
      {
        string m;
@@ -34,7 +34,7 @@
   		srand(time(0));
   	int rep;
   	 string mot1,motMyster;
-  	cout<<"bienvenu dans le jeux des mots "<<endl<<" mode de jeux  : "<<endl<<" ***** un seule joueure ***** taper 1"<<endl<<" *****   deux joueure   ***** taper 2  "<<endl;
+  	cout<<"bienvenu dans le jeu des mots "<<endl<<" mode de jeux  : "<<endl<<" ***** un seule joueure ***** taper 1"<<endl<<" *****   deux joueure   ***** taper 2  "<<endl;
   	cin>>rep;
   	if (rep==1)
   	{
